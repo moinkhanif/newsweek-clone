@@ -1,0 +1,15 @@
+body > .container {
+  max-width: 1340px;
+}
+
+.heading {
+  background-color: #f72210;
+  padding: 20px 10px 15px;
+  color: white;
+}
+
+#Layer_1 {
+  fill: white;
+  width: 396px;
+  height: 60px;
+}
