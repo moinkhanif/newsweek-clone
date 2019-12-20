@@ -17,10 +17,10 @@
 </head>
 
 <body>
-  <div class="container px-md-0">
+  <div class="container px-0">
     <header>
       <div class="heading col-lg-12 d-flex justify-content-between align-items-end">
-        <p class="ml-3 mb-0"><time datetime="2019-12-19">Thu, Dec 19, 2019</time></p>
+        <p class="ml-3 mb-0 d-none d-md-block"><time datetime="2019-12-19">Thu, Dec 19, 2019</time></p>
         <a href="./">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background: new 0 0 395.6 60;" xml:space="preserve">
@@ -32,16 +32,39 @@
           </svg>
         </a>
         <div>
-          <button>
+          <button class="btn">
             Sign In
           </button>
-          <button>
+          <button class="btn">
             Subscribe
           </button>
+          <div class="burger">
+          </div>
         </div>
       </div>
-      <nav>
-        <ul></ul>
+      <nav class="navbar top-nav position-relative">
+        <label class="burger btn d-md-none position-absolute">
+          <input type="checkbox" name="burger" id="burger" class="d-none">&#9776;
+        </label>
+        <ul class="nav d-flex flex-column flex-md-row">
+          <li class="nav-item"><a href="#" class="nav-link">U.S.</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">World</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Business</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Tech & Science</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Culture</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Newsgeek</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sports</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Health</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Opinion</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Vantage</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><form action="#" class="form-inline w-08">
+            <label class="position-relative">
+              <input type="search" name="search" id="search" placeholder="Search" class="form-control">
+              <i class="fas fa-search position-absolute"></i>
+            </label>
+          </form></a></li>
+        </ul>
+        
       </nav>
     </header>
   </div>
