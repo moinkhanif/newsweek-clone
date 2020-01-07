@@ -32,6 +32,11 @@ body > .container {
   color: rgb(255, 255, 255, 0.5);
 }
 
+.more-stories a {
+  color: #444;
+  font-weight: bold;
+}
+
 .top-nav {
   padding-left: 0;
 }
@@ -102,6 +107,23 @@ body > .container {
   padding-right: 0;
 }
 
+.more-stories article {
+  border-bottom: rgb(211, 211, 211) solid 1px;
+  margin-bottom: 20px;
+}
+
+.culture-travel div article {
+  flex-basis: 50%;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.culture-travel button {
+  background-color: #c2d4d7;
+  border: none;
+  padding: 5px;
+}
+
 .top-buttons button {
   height: 26px;
   border: 0;
@@ -165,6 +187,16 @@ main {
   font-weight: bold;
   color: rgba(39, 24, 24, 0.7);
   line-height: 1.5;
+}
+
+.top-story iframe {
+  height: 349px;
+  border: none;
+}
+
+.more-stories figure {
+  float: left;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 991px) {

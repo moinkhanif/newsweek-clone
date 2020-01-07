@@ -15,8 +15,8 @@
   <title>Newsweek[clone] - News, Analysis, Politics, Business, Technology</title>
 </head>
 
-<body>
-  <div class="container px-0 position-relative">
+<body class="bg-light">
+  <div class="container px-0 position-relative bg-white">
     <header class="position-relative">
       <div class="heading col-lg-12 d-none d-lg-flex justify-content-between align-items-end">
         <p class="ml-3 mb-0 d-none d-md-block"><time datetime="2019-12-19">Thu, Dec 19, 2019</time></p>
@@ -51,12 +51,12 @@
             </g>
           </svg>
         </a>
-        <div class="d-flex align-items-center">
-          <button class="btn">
+        <div class="d-flex align-items-center top-buttons">
+          <button class="text-light font-weight-bold px-3 text-uppercase">
             Sign In
           </button>
-          <button class="btn">
-            Subscribe
+          <button class="font-weight-bold text-uppercase" style="padding: 3px 10px;">
+            Subscribe &#10095;
           </button>
           <div class="burger">
             <label class="burger btn position-absolute">
@@ -126,19 +126,194 @@
             </article>
           </section>
         </aside>
-        <section class="col col-md-8 col-lg-6 col-sm-12 order-1 order-md-2">
+        <section class="col col-md-8 col-lg-6 col-sm-12 order-1 order-md-2 px-4">
           <h2 class="d-none">Center</h2>
-          <section>
+          <section class="top-story position-relative border-bottom mb-3">
             <h6>TOP STORY</h6>
             <article>
               <figure>
-                <iframe class="w-100" width="560" height="345" src="https://www.youtube.com/embed/upwmSSMhoPY?rel=0"
+                <iframe class="w-100" src="https://www.youtube.com/embed/upwmSSMhoPY?rel=0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
               </figure>
-              <h4>BLACKPINK and SAMSUNG Indonesia To Hold Exclusive Fan Meeting in Jakarta</h4>
+              <h4><a href="#" class="text-dark">BLACKPINK and SAMSUNG Indonesia To Hold Exclusive Fan Meeting in
+                  Jakarta</a></h4>
               <p>BLACKPINK and SAMSUNG Indonesia will hold Exclusive Fan Meeting in Galaxy A Awesome Live Event on
                 January 14, 2020 at 5 PM local time.</p>
+            </article>
+          </section>
+          <div class="pb-2 mb-3 border-bottom">
+            <h6><a href="#" class="text-dark font-weight-bold">Heartbreaking Photos of Australia Wildfires Show Massive
+                Devastation That
+                Could Claim Lives of 1 Billion Animals</a></h6>
+          </div>
+          <section class="row culture-travel bg-light">
+            <h6 class="col-12 py-2">CULTURE & TRAVEL</h6>
+            <div class="d-flex flex-wrap">
+              <article class="">
+                <figure>
+                  <img class="w-100"
+                    src="https://d.newsweek.com/en/full/1556162/countryside-georgia-country.jpg?w=397&h=265&l=0&t=0&f=83d7f181efe4f3dc355511bf02aac3c6"
+                    alt="Countryside of Georgia the country">
+                </figure>
+                <h4><a href="#" class="text-dark">Travel Trends for 2020, According to the Experts</a></h4>
+                <p>
+                  How will the trends of the last year and decade evolve and shape the way we travel in 2020 and beyond?
+                  We talked to a few experts to find out.
+                </p>
+                <button>
+                  <a href="#" class="text-dark">Travel</a>
+                </button>
+              </article>
+              <article>
+                <figure>
+                  <img class="w-100"
+                    src="https://d.newsweek.com/en/full/1394571/saba.jpg?w=397&h=265&f=23ecdd36d1fcc063c56da38984eddb99"
+                    alt="Countryside of Georgia the country">
+                </figure>
+                <h4><a href="#" class="text-dark">Saba: The Greatest Little Island You Never Heard Of</a></h4>
+                <p>
+                  Islanders call Saba "The Unspoiled Queen of the Caribbean" for its pristine landscapes and striking
+                  biodiversity as well as the absence of crowds, chain stores, and cruise ship throngs.
+                </p>
+                <button>
+                  <a href="#" class="text-dark">Travel</a>
+                </button>
+              </article>
+              <article>
+                <figure>
+                  <img class="w-100"
+                    src="https://d.newsweek.com/en/full/1555660/cul-map-wellness-06-536204234.jpg?w=397&h=265&l=58&t=44&f=2e457f04452c9ba2bfe1ef452f441c85"
+                    alt="Countryside of Georgia the country">
+                </figure>
+                <h4><a href="#" class="text-dark">Global Wellness Rituals to Try This Year</a></h4>
+                <p>
+                  Every country has its own traditions and take on self-care. In Finland, it involves steamy saunas and
+                  icy dips; in Tibet, sound vibrations are believed to heal and harmonize the body; and in the United
+                  States, floating in darkened soundproof pods to chill out is enjoying a renaissance.
+                </p>
+                <button>
+                  <a href="#" class="text-dark">Travel</a>
+                </button>
+              </article>
+              <article>
+                <figure>
+                  <img class="w-100"
+                    src="https://d.newsweek.com/en/full/1541416/red-planet-jordan.jpg?w=397&h=265&f=295430ed3020a3863f4a02519a3241fc"
+                    alt="Countryside of Georgia the country">
+                </figure>
+                <h4><a href="#" class="text-dark">Welcome to the Red Planet: Wadi Rum, Jordan</a></h4>
+                <p>
+                  An oasis of peace in a turbulent part of the world filled with biblical history and dramatic desert
+                  wonders, Jordan is about as otherworldly as you can get here on Earth.
+                </p>
+                <button>
+                  <a href="#" class="text-dark">Travel</a>
+                </button>
+              </article>
+            </div>
+          </section>
+          <section class="more-stories">
+            <h6 class="border-bottom py-2 mb-4">MORE STORIES</h6>
+            <article>
+              <figure>
+                <img
+                  src="https://d.newsweek.com/en/full/1558147/pompeo-defends-trumps-strike-before-reporters.jpg?w=135&h=90&f=54219abfe1b3ff98806235a5d74ba575"
+                  alt="Pompeo Defends Trump's Strike Before Reporters">
+              </figure>
+              <h6><a href="#">Pompeo Says Trump's Soleimani Strike Fit 'Perfectly' Into Existing Strategy</a></h6>
+              <p>The statement comes amid concerns that President Donald Trump is out of step with senior-ranking
+                members of his administration, who in recent days have walked back his threats to attack Iran's cultural
+                sites.</p>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://d.newsweek.com/en/full/1558011/blaine.jpg?w=135&h=90&f=e0990c6777373c0b9f1ba7773d157ee6"
+                  alt="Pompeo Defends Trump's Strike Before Reporters">
+              </figure>
+              <h6><a href="#">CBP Accused of Gaslighting Iranian Americans by Denying Detentions</a></h6>
+              <p>"When we hear story after story of Iranian Americans being singled out...it is hard to call it anything
+                other than racial profiling," said Washington Lieutenant Governor Cyrus Habib.</p>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://d.newsweek.com/en/full/1558051/joe-biden-bernie-sanders-2020-democratic-primaries.jpg?w=135&h=90&f=ff2d509cf617bd6eed6ec60367a55a48"
+                  alt="Pompeo Defends Trump's Strike Before Reporters">
+              </figure>
+              <h6><a href="#">Bernie Sanders Lays Into Joe Biden's Record, Doubts He Can Defeat Trump</a></h6>
+              <p>The independent Vermont senator is turning up the heat on his criticisms of the former vice president
+                as the start of the 2020 Democratic primary season looms.</p>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://d.newsweek.com/en/full/1557961/josh-hawley-nancy-pelosi-senate-trial-trump.jpg?w=135&h=90&f=5de6e2bf85b1aa42f2fe0c2dfbe82484"
+                  alt="Pompeo Defends Trump's Strike Before Reporters">
+              </figure>
+              <h6><a href="#">Pelosi Is 'Trying to Obstruct' Trump's Trial: GOP Senator</a></h6>
+              <p>Speaking to Fox News host Sean Hannity, Missouri Senator Josh Hawley said it is "time for the Senate to
+                fight back" against the House delay on sending up articles of impeachment for a trial.</p>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://d.newsweek.com/en/full/1557970/firenado.jpg?w=135&h=90&f=2d057b7586869bf8cbf9707c536787a1"
+                  alt="Pompeo Defends Trump's Strike Before Reporters">
+              </figure>
+              <h6><a href="#">Australia's Wildfires Are So Intense They're Creating So-Called Firestorms</a></h6>
+              <p>The scale and intensity of Australia's wildfires are triggering firestorms and firenadoes. Here's why.
+              </p>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://d.newsweek.com/en/full/1557850/topshot-iraq-iran-politics-unrest-us.jpg?w=135&h=90&f=66ffcbc714ffdc5dcc77638cf65ebd4b"
+                  alt="Pompeo Defends Trump's Strike Before Reporters">
+              </figure>
+              <h6><a href="#">43 Percent of Americans Approve of Trump's Strike on Iranian General</a></h6>
+              <p>Despite the administration's assurances, Americans largely view Iran as still a very credible threat to
+                the United States.</p>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://d.newsweek.com/en/full/1557981/awkwafina-wins-golden-globe.jpg?w=135&h=90&f=c8e881a70d74ec40e679c5f187f5c7a2"
+                  alt="Pompeo Defends Trump's Strike Before Reporters">
+              </figure>
+              <h6><a href="#">All-White BAFTA Film Awards Nominations Spark #BAFTAsSoWhite Debate</a></h6>
+              <p>No people of color were nominated in any of this year's four acting categories.</p>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://d.newsweek.com/en/full/1558120/facebook.jpg?w=135&h=90&l=0&t=0&f=70c932f7153a1fffd3a1179e40feaeed"
+                  alt="Pompeo Defends Trump's Strike Before Reporters">
+              </figure>
+              <h6><a href="#">Facebook Bans Misleading 'Deepfakes' Ahead of U.S. Presidential Election</a></h6>
+              <p>"While these videos are still rare on the internet, they present a significant challenge for our
+                industry and society as their use increases," warned Facebook executive Monika Bickert.</p>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://d.newsweek.com/en/full/1557975/no-hate-no-fear.jpg?w=135&h=90&f=16bb490d03806a0326aa1b74110520be"
+                  alt="Pompeo Defends Trump's Strike Before Reporters">
+              </figure>
+              <h6><a href="#">Jewish Man Abused on New York Subway After Attending 'No Hate, No Fear' March</a></h6>
+              <p>Jonathan Gray said he recorded being threatened "literally five minutes" after attending solidarity
+                march in Brooklyn.</p>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="https://d.newsweek.com/en/full/1557849/john-bolton-testify-senate-impeachment-trial.jpg?w=135&h=90&f=5bb05a4284e74b95b9a0db4a7745d0dd"
+                  alt="Pompeo Defends Trump's Strike Before Reporters">
+              </figure>
+              <h6><a href="#">Bolton Now Says He's Open to Testifying in Impeachment Trial </a></h6>
+              <p>The former national security adviser is believed to have firsthand knowledge of the president's Ukraine
+                dealings and his decision to withhold $400 million in military aid from the U.S. ally.</p>
             </article>
           </section>
         </section>
