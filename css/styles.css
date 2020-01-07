@@ -10,15 +10,9 @@ body > .container {
 
 .heading {
   background-color: #f72210;
-  /* padding: 20px 10px 25px; */
-  padding: 15px;
+  padding: 20px 10px 25px;
   color: white;
 }
-
-
-/* .heading > p {
-  display: none;
-} */
 
 #Layer_2 {
   fill: white;
@@ -32,13 +26,17 @@ body > .container {
   height: 60px;
 }
 
+.burger label {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255, 0.5);
+}
+
 .top-nav {
-  /* justify-content: start; */
   padding-left: 0;
 }
 
 .top-nav > ul {
-  /* max-width: 1310px; */
   width: 95%;
   flex-wrap: nowrap;
 }
@@ -52,7 +50,6 @@ body > .container {
   height: 56px;
   flex-grow: 1;
   flex-shrink: 0;
-  /* flex-basis: 1; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,12 +60,10 @@ body > .container {
 }
 
 .top-nav li::after {
-  /* padding: 0 2.1vw; */
-  border-right: 1px solid #555;
+  border-right: 1px solid rgb(85, 85, 85, 0.2);
   width: 100%;
   height: 50%;
   white-space: nowrap;
-  /* flex-basis: 1; */
   content: "";
 }
 
@@ -76,14 +71,10 @@ body > .container {
   width: 100%;
 }
 
-.top-nav>ul label,
+.top-nav > ul label,
 .top-nav .form-control {
   width: 100%;
 }
-/* 
-li:focus-within #search {
-  width: 90vw;
-} */
 
 .top-nav li:last-child a {
   width: 150px;
@@ -100,7 +91,7 @@ li:focus-within #search {
   height: 14px;
   background-color: #f72210;
   position: absolute;
-  top:-5px;
+  top: -5px;
   right: -6px;
   transform: rotate(45deg);
   border: none;
@@ -111,32 +102,80 @@ li:focus-within #search {
   padding-right: 0;
 }
 
+.top-buttons button {
+  height: 26px;
+  border: 0;
+}
+
+.top-buttons button:first-child {
+  background-color: transparent;
+}
+
+.top-buttons > button:last-child {
+  color: #f72210;
+  background-color: #fff;
+  border-radius: 0;
+  width: 128px;
+}
+
 .fa-search {
   top: -8px;
   right: 8px;
   color: #444;
- 
 }
 
 #search {
   position: absolute;
   right: 0;
   transition: width 600ms;
+  border: none;
 }
+
 .burger {
   width: 50px;
   height: 50px;
 }
 
-.burger label {
-  display: flex;
-  align-items: center;
-  color: rgb(255, 255, 255,0.5);
+header nav {
+  border-bottom: 1px solid rgb(85, 85, 85, 0.2);
 }
 
-@media screen and (max-width: 991px){
-  .top-nav li.nav-item:last-child::after {
-    display: none;
-  }
+main {
+  padding: 20px 30px;
+}
 
+.data figure::after {
+  content: attr(data-title);
+  position: absolute;
+  display: inline;
+  background-color: rgba(238, 238, 238, 0.9);
+  color: #f72210;
+  bottom: 0;
+  left: 0;
+  padding: 5px 20px;
+}
+
+.featured-stories p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.opinion p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgba(39, 24, 24, 0.7);
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 991px) {
+  .heading {
+    position: sticky;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1076px) {
+  .nav-link {
+    padding: 0.5rem;
+  }
 }
