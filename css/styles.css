@@ -76,7 +76,7 @@ body > .container {
   width: 100%;
 }
 
-.top-nav li:last-child a {
+.top-nav li:last-child div {
   width: 150px;
   border: none;
 }
