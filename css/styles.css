@@ -32,9 +32,14 @@ body > .container {
   color: rgb(255, 255, 255, 0.5);
 }
 
-.more-stories a {
+.more-stories a,
+.latest-news a {
   color: #444;
   font-weight: bold;
+}
+
+.newsletter > div {
+  height: 48px;
 }
 
 .top-nav {
@@ -110,6 +115,10 @@ body > .container {
 .more-stories article {
   border-bottom: rgb(211, 211, 211) solid 1px;
   margin-bottom: 20px;
+}
+
+.latest-news article {
+  display: flex;
 }
 
 .culture-travel div article {
@@ -197,6 +206,37 @@ main {
 .more-stories figure {
   float: left;
   margin-right: 20px;
+}
+
+.latest-news img {
+  width: 100%;
+}
+
+.latest-news figure {
+  flex: 1 1;
+  margin-right: 20px;
+}
+
+.latest-news h5 {
+  flex: 1.5 1.5;
+  font-size: 0.9rem;
+}
+
+.newsletter {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter h6 {
+  max-width: 200px;
+  margin-left: 10px;
+}
+
+.icon {
+  height: 29px;
+  width: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
 }
 
 @media screen and (max-width: 991px) {
