@@ -42,6 +42,37 @@ body > .container {
   height: 48px;
 }
 
+.top-nav a {
+  white-space: nowrap;
+}
+
+.side1 > div,
+.side2 > div,
+.side3 > div {
+  padding: 10px 20px;
+}
+
+.conversations-cover > div {
+  padding: 40px 25px 30px;
+}
+
+.conversations-area a {
+  color: #fff;
+}
+
+.conversations-area article > div {
+  background-color: #000;
+}
+
+.conversations-cover > figure > a {
+  background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
+  height: 100%;
+  background-position: center;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .top-nav {
   padding-left: 0;
 }
@@ -63,10 +94,6 @@ body > .container {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.top-nav a {
-  white-space: nowrap;
 }
 
 .top-nav li::after {
@@ -237,6 +264,100 @@ main {
   height: 29px;
   width: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.side1 figure,
+.side2 figure,
+.side3 figure {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.side1 figure {
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+}
+
+.side2 figure {
+  background-image: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f");
+}
+
+.side3 figure {
+  background-image: url("https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg?w=173&h=104&f=654768a75c92e3ead489a0ab7a1ae31f");
+}
+
+.conversations-cover figure {
+  width: 140%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  align-self: stretch;
+}
+
+.side1,
+.side2,
+.side3 {
+  display: flex;
+}
+
+.conversations-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1px;
+  grid-template-areas: "a a side1" "a a side2" "a a side3";
+}
+
+.conversations-area figure {
+  margin: 0;
+}
+
+.conversations-area figure::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #f72210;
+  background-image: url("../img/play-button-arrowhead.svg");
+  background-position: center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.conversations-area p {
+  color: rgb(199, 199, 199);
+}
+
+.conversations-area time {
+  color: #999;
+}
+
+.conversations-cover {
+  grid-area: a;
+}
+
+.side1 {
+  grid-area: side1;
+}
+
+.side2 {
+  grid-area: side2;
+}
+
+.side3 {
+  grid-area: side3;
+}
+
+.side1 h5,
+.side2 h5,
+.side3 h5 {
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 991px) {
