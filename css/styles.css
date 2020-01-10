@@ -263,7 +263,7 @@ main {
 .icon {
   height: 29px;
   width: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
 }
 
 .side1 figure,
@@ -358,6 +358,23 @@ main {
 .side2 h5,
 .side3 h5 {
   font-size: 1rem;
+}
+
+.in-magazine h5 {
+  font-size: 1rem;
+}
+
+.last-magazine figure::after {
+  content: 'IN FOCUS';
+  background-color: #f72210;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: auto;
+  padding: 2px 10px;
+  color: #fff;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 991px) {
