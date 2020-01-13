@@ -324,14 +324,6 @@ main {
   display: flex;
 }
 
-.conversations-area {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 1px;
-  grid-template-areas: "a a side1" "a a side2" "a a side3";
-}
-
 .conversations-area figure {
   margin: 0;
 }
@@ -355,22 +347,6 @@ main {
 
 .conversations-area time {
   color: #999;
-}
-
-.conversations-cover {
-  grid-area: a;
-}
-
-.side1 {
-  grid-area: side1;
-}
-
-.side2 {
-  grid-area: side2;
-}
-
-.side3 {
-  grid-area: side3;
 }
 
 .side1 h5,
@@ -491,12 +467,6 @@ footer .fab {
 
   .conversations-cover > figure > a {
     height: 290px;
-  }
-
-  .conversations-area {
-    grid-template-rows: 500px;
-    grid-auto-rows: 104px;
-    grid-template-areas: "a a a" "side1 side1 side1" "side2 side2 side2" "side3 side3 side3";
   }
 }
 
