@@ -7,7 +7,9 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-Recreating a version of [newsweek.com](https://www.newsweek.com/) website
+Recreating a version of [newsweek.com](https://www.newsweek.com/) website.
+
+Final live version : [Moins Newsweek](https://raw.githack.com/moinkhanif/newsweek-clone/bootstrap-v/index.html)
 
 ## About the project
 
