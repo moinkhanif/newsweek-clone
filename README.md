@@ -6,6 +6,7 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+
 Recreating a version of [newsweek.com](https://www.newsweek.com/) website
 
 ## About the project
