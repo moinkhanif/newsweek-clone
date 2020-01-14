@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 330px;
+}
+
+body > .container {
+  max-width: 1320px;
+}
+
+.heading {
+  background-color: #f72210;
+  padding: 20px 10px 25px;
+  color: white;
+}
+
+#Layer_2 {
+  fill: white;
+  width: 132px;
+  height: 20px;
+}
+
+#Layer_1 {
+  fill: white;
+  width: 396px;
+  height: 60px;
+}
+
+.burger label {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.more-stories a,
+.latest-news a,
+.bottom-stories a {
+  color: #444;
+  font-weight: bold;
+}
+
+.newsletter > div {
+  height: 48px;
+}
+
+.top-nav a {
+  white-space: nowrap;
+}
+
+.side1 > div,
+.side2 > div,
+.side3 > div {
+  padding: 10px 20px;
+}
+
+.conversations-cover > div {
+  padding: 40px 25px 30px;
+}
+
+.conversations-area a {
+  color: #fff;
+}
+
+.conversations-area article > div {
+  background-color: #000;
+}
+
+.conversations-cover > figure > a {
+  background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
+  height: 100%;
+  background-position: center;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-nav {
+  padding-left: 0;
+}
+
+.top-nav > ul {
+  width: 95%;
+  flex-wrap: nowrap;
+}
+
+.top-main aside > div {
+  position: sticky;
+  top: 0;
+}
+
+.top-nav .nav {
+  margin-top: -20px;
+}
+
+.top-nav li {
+  background-color: white;
+  height: 56px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav li::after {
+  border-right: 1px solid rgb(85, 85, 85, 0.2);
+  width: 100%;
+  height: 50%;
+  white-space: nowrap;
+  content: "";
+}
+
+.top-nav .form-inline {
+  width: 100%;
+}
+
+.top-nav > ul label,
+.top-nav .form-control {
+  width: 100%;
+}
+
+.top-nav li:last-child div {
+  width: 150px;
+  border: none;
+}
+
+.top-nav li.nav-item:last-child {
+  position: relative;
+}
+
+.top-nav li.nav-item:last-child::after {
+  content: "";
+  width: 19px;
+  height: 14px;
+  background-color: #f72210;
+  position: absolute;
+  top: -5px;
+  right: -6px;
+  transform: rotate(45deg);
+  border: none;
+}
+
+.top-nav li:nth-last-child(2) a {
+  border: none;
+  padding-right: 0;
+}
+
+.more-stories article {
+  border-bottom: rgb(211, 211, 211) solid 1px;
+  margin-bottom: 20px;
+}
+
+.latest-news article {
+  display: flex;
+}
+
+.editors-pick article {
+  margin-bottom: 15px;
+}
+
+.featured-slideshows article {
+  margin-bottom: 3rem;
+}
+
+.culture-travel div article {
+  flex-basis: 50%;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+.culture-travel button {
+  background-color: #c2d4d7;
+  border: none;
+  padding: 5px;
+}
+
+.top-buttons button {
+  height: 26px;
+  border: 0;
+}
+
+.top-buttons button:first-child {
+  background-color: transparent;
+}
+
+.top-buttons > button:last-child {
+  color: #f72210;
+  background-color: #fff;
+  border-radius: 0;
+  width: 128px;
+}
+
+.fa-search {
+  top: -8px;
+  right: 8px;
+  color: #444;
+}
+
+#search {
+  position: absolute;
+  right: 0;
+  transition: width 600ms;
+  border: none;
+}
+
+.burger {
+  width: 50px;
+  height: 50px;
+}
+
+header nav {
+  border-bottom: 1px solid rgb(85, 85, 85, 0.2);
+}
+
+main {
+  padding: 20px 30px;
+}
+
+.data figure::after {
+  content: attr(data-title);
+  position: absolute;
+  display: inline;
+  background-color: rgba(238, 238, 238, 0.9);
+  color: #f72210;
+  bottom: 0;
+  left: 0;
+  padding: 5px 20px;
+}
+
+.featured-stories p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.opinion p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgba(39, 24, 24, 0.7);
+  line-height: 1.5;
+}
+
+.top-story iframe {
+  height: 349px;
+  border: none;
+}
+
+.more-stories figure {
+  float: left;
+  margin-right: 20px;
+}
+
+.latest-news img {
+  width: 100%;
+}
+
+.latest-news figure {
+  flex: 1 1;
+  margin-right: 20px;
+}
+
+.latest-news h5 {
+  flex: 1.5 1.5;
+  font-size: 0.9rem;
+}
+
+.newsletter {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter h6 {
+  max-width: 200px;
+  margin-left: 10px;
+}
+
+.icon {
+  height: 29px;
+  border: 1px solid #fff;
+  width: 28px;
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
+}
+
+.side1 figure,
+.side2 figure,
+.side3 figure {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.side1 figure {
+  background-image: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95");
+}
+
+.side2 figure {
+  background-image: url("https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f");
+}
+
+.side3 figure {
+  background-image: url("https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg?w=173&h=104&f=654768a75c92e3ead489a0ab7a1ae31f");
+}
+
+.conversations-cover figure {
+  width: 140%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  align-self: stretch;
+}
+
+.side1,
+.side2,
+.side3 {
+  display: flex;
+}
+
+.conversations-area figure {
+  margin: 0;
+}
+
+.conversations-area figure::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: #f72210;
+  background-image: url("../img/play-button-arrowhead.svg");
+  background-position: center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+.conversations-area p {
+  color: rgb(199, 199, 199);
+}
+
+.conversations-area time {
+  color: #999;
+}
+
+.side1 h5,
+.side2 h5,
+.side3 h5 {
+  font-size: 1rem;
+}
+
+.in-magazine h5 {
+  font-size: 1rem;
+}
+
+.last-magazine figure::after {
+  content: 'IN FOCUS';
+  background-color: #f72210;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: auto;
+  padding: 2px 10px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.editors-pick figure::after {
+  content: attr(data-category);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 5px 15px;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.editors-pick p {
+  line-height: 1.3;
+}
+
+.featured-slideshows > div .icon::after {
+  content: '';
+  height: 29px;
+  width: 28px;
+  display: block;
+  box-shadow: 4px 4px #f72210;
+}
+
+.featured-slideshows figure {
+  position: relative;
+}
+
+.featured-slideshows figure::after {
+  content: attr(data-number);
+  background-image: url('../img/icon-slideshows-nw.png');
+  position: absolute;
+  bottom: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 0;
+  padding: 10px 20px;
+  color: #f72210;
+  font-weight: bolder;
+}
+
+.bottom-side h5 {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.bottom-stories section {
+  padding-top: 30px;
+}
+
+.bottom-stories > section > h5 {
+  padding-bottom: 10px;
+  font-weight: bolder;
+  color: #f72210;
+}
+
+.bottom-newsletter .newsletter-img {
+  background-image: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Layer_3 {
+  width: 236px;
+  height: 36px;
+  fill: #f72210;
+}
+
+footer .fab {
+  margin: 0 10px;
+  padding: 0;
+}
+
+@media screen and (max-width: 444px) {
+  .heading-two {
+    font-size: 0.6rem;
+  }
+
+  .heading-two > div > button {
+    padding: 0;
+  }
+
+  .in-magazine figure {
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .in-magazine figure {
+    max-height: 162px;
+  }
+
+  .conversations-cover > figure > a {
+    height: 290px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .heading {
+    position: sticky;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1076px) {
+  .nav-link {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .bottom-newsletter > div {
+    height: 100% !important;
+  }
+}
