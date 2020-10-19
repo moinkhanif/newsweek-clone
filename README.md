@@ -38,7 +38,7 @@ We were to recreate Newsweek website. The above is my version of the website
 * Moin Khan
     * Twitter: [@MoinKhanIF](https://twitter.com/MoinKhanIF)
     * LinkedIn : [@MoinKhanIF](https://www.linkedin.com/in/moinkhanif/)
-    * Personal Website: [MoinKhan.Info](https://moinkhan.info)
+    * Personal Website: [MoinKhanIF.dev](https://moinkhanif.dev)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
