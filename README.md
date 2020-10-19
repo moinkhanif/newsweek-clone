@@ -13,7 +13,7 @@ Recreating a version of [newsweek.com](https://www.newsweek.com/) website.
 
 ## About the project
 
-We were to recreate Newsweek website. Below is the screenshot of my version of the website
+We were to recreate the Newsweek website. Below is the screenshot of my version of the website
 
 ![Newsweek](https://i.imgur.com/1HDZpCD.png)
 
@@ -21,13 +21,13 @@ We were to recreate Newsweek website. Below is the screenshot of my version of t
 
 * Made using Bootstrap
 
-* Used minimal to no javascript
+* Used minimally to no javascript
 
-* Top Asides are sticky untill their content is further scrolled.
+* Top Asides are sticky until their content is further scrolled.
 
-* Responsive in nature
+* Responsive design
 
-* Used fontawesome for icons
+* Used font-awesome for icons
 
 ## Potential future updates
 
