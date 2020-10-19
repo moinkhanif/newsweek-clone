@@ -9,13 +9,13 @@
 
 Recreating a version of [newsweek.com](https://www.newsweek.com/) website.
 
-Final live version : [Moins Newsweek](https://raw.githack.com/moinkhanif/newsweek-clone/bootstrap-v/index.html)
+**Final live version** : [Moins Newsweek](https://moinkhanif.dev/newsweek-clone/)
 
 ## About the project
 
-![Newsweek](https://i.imgur.com/1HDZpCD.png)
+We were to recreate Newsweek website. Below is the screenshot of my version of the website
 
-We were to recreate Newsweek website. The above is my version of the website
+![Newsweek](https://i.imgur.com/1HDZpCD.png)
 
 ## Features
 
